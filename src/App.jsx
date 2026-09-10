@@ -2,6 +2,7 @@ import Header from "./components/Header"
 import HeroSection from "./components/HeroSection"
 import CoursesSection from "./components/CoursesSection"
 import RegistrationSection from './components/RegistrationSection'
+import Footer from './components/Footer'
 function App() {
   return (
   <>
@@ -9,6 +10,8 @@ function App() {
     <HeroSection> </HeroSection>
     <CoursesSection></CoursesSection>
     <RegistrationSection> </RegistrationSection>
+    <Footer></Footer>
+
   </>
   )
 }
