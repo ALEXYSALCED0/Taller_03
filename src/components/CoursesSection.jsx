@@ -30,14 +30,14 @@ function CoursesSection(){
         <section className='coursesSection' id='courses'>
             <div className='coursesSection__description'>
                 <h2>Nuestros cursos</h2>
-                <p className='coursesSection__courseDescription'>Elige el camino que mas se adapte a ti!</p>
+                <p className='coursesSection__text'>Elige el camino que mas se adapte a ti!</p>
             </div>
             <div className='coursesSection__cards'>
             {courses.map(c=>(
                 <Card>
                     <h3 className='coursesSection__icons'>{c.emoji}</h3>
                     <h3>{c.title}</h3>
-                    <p className='coursesSection__courseDescription'>{c.description}</p>
+                    <p className='coursesSection__text'>{c.description}</p>
                     <Button variant='primary'>{c.btnText}</Button>
                 </Card>
             )
