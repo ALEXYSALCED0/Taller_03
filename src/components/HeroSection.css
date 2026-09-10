@@ -1,0 +1,26 @@
+.hero{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to right,#1a1c32,#122e54 );
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    padding: 80px;
+
+
+}
+.hero__title{
+    color: #fefefe;
+}
+.hero__description{
+    font-size: 0.9rem;
+    color: #ccccc9;
+    width: 50vw;
+    text-align: center;
+    line-height: 1.5;
+    
+
+}
+.hero__accent{
+    color: #c53c56;
+}
