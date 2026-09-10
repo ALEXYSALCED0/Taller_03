@@ -15,7 +15,8 @@
     font-weight: 600;
 }
 .button--primary{
-    padding: 10px;
+    padding: 8px;
+    margin-right: 80px;
     font-weight: 500;
 }
 .button--round{
