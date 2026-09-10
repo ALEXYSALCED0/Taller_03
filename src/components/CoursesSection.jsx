@@ -27,7 +27,7 @@ function CoursesSection(){
     }
     ]
     return(
-        <section className='coursesSection'>
+        <section className='coursesSection' id='courses'>
             <div className='coursesSection__description'>
                 <h2>Nuestros cursos</h2>
                 <p className='coursesSection__courseDescription'>Elige el camino que mas se adapte a ti!</p>
