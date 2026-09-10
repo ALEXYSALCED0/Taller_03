@@ -20,7 +20,13 @@
     font-weight: 500;
 }
 .button--round{
-    padding: 10px;
+    
+    width: 40px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
     aspect-ratio: 1/1;
+    font-size: 2rem;
+    font-weight: 900;
     border-radius: 50%;
 }
