@@ -19,4 +19,9 @@
 .navegation__item{
     text-decoration: none;
     color: #ccccc9;
+    transition: all 200ms ease;
+
+}
+.navegation__item:hover{
+    color: #b5b5b2;
 }
